@@ -6,6 +6,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.battery.dto.*;
 import org.example.battery.entity.Rule;
 
+/**
+ * 匹配规则方法
+ */
 public class MatchRule {
     private static final ObjectMapper mapper = new ObjectMapper();
     public static WarnDto matchRule(QueryDto queryDto, RuleDto rule, CarDto carDto, Rule r) throws JsonProcessingException {

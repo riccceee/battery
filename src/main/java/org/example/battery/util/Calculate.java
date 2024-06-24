@@ -4,6 +4,9 @@ import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import javax.script.ScriptException;
 
+/**
+ * 用于计算字符串表达式的真值
+ */
 public class Calculate {
     public static Boolean calculate(String expression) {
         ScriptEngineManager manager = new ScriptEngineManager();
